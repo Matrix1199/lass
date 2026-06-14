@@ -620,6 +620,9 @@
       grid-template-columns: 1fr;
       gap: var(--space-6);
     }
+    @media (max-width: 639px) {
+      .hero-headline { white-space: normal; }
+    }
     @media (min-width: 640px) {
       .quotes-grid { grid-template-columns: repeat(2, 1fr); }
       .quote-card--featured { grid-column: span 2; }
